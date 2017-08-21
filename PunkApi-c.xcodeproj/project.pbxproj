@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A64F2821F477FE300453DCC /* BearDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A64F2811F477FE300453DCC /* BearDetailsViewController.m */; };
+		2AD5EFDA1F46024300ABA10C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5EFD91F46024300ABA10C /* main.m */; };
+		2AD5EFDD1F46024300ABA10C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5EFDC1F46024300ABA10C /* AppDelegate.m */; };
+		2AD5EFE31F46024300ABA10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5EFE11F46024300ABA10C /* Main.storyboard */; };
+		2AD5EFE61F46024300ABA10C /* PunkApi_c.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5EFE41F46024300ABA10C /* PunkApi_c.xcdatamodeld */; };
+		2AD5EFE81F46024300ABA10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5EFE71F46024300ABA10C /* Assets.xcassets */; };
+		2AD5EFEB1F46024300ABA10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5EFE91F46024300ABA10C /* LaunchScreen.storyboard */; };
+		2AD5EFF61F46024400ABA10C /* PunkApi_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5EFF51F46024400ABA10C /* PunkApi_cTests.m */; };
+		2AD5F0011F46024400ABA10C /* PunkApi_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5F0001F46024400ABA10C /* PunkApi_cUITests.m */; };
+		2AD5F0131F46072500ABA10C /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5F0121F46072500ABA10C /* Bear.m */; };
+		2AD5F0161F46111300ABA10C /* BearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5F0151F46111300ABA10C /* BearTableViewController.m */; };
+		2AF0AE231F4768BB00ED7D22 /* BearDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0AE221F4768BB00ED7D22 /* BearDetail.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD5EFF21F46024400ABA10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD5EFCD1F46024300ABA10C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD5EFD41F46024300ABA10C;
+			remoteInfo = "PunkApi-c";
+		};
+		2AD5EFFD1F46024400ABA10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD5EFCD1F46024300ABA10C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD5EFD41F46024300ABA10C;
+			remoteInfo = "PunkApi-c";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A64F2801F477FE300453DCC /* BearDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BearDetailsViewController.h; sourceTree = "<group>"; };
+		2A64F2811F477FE300453DCC /* BearDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BearDetailsViewController.m; sourceTree = "<group>"; };
+		2AD5EFD51F46024300ABA10C /* PunkApi-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PunkApi-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5EFD91F46024300ABA10C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AD5EFDB1F46024300ABA10C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AD5EFDC1F46024300ABA10C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AD5EFE21F46024300ABA10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AD5EFE51F46024300ABA10C /* PunkApi_c.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PunkApi_c.xcdatamodel; sourceTree = "<group>"; };
+		2AD5EFE71F46024300ABA10C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD5EFEA1F46024300ABA10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AD5EFEC1F46024300ABA10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD5EFF11F46024400ABA10C /* PunkApi-cTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PunkApi-cTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5EFF51F46024400ABA10C /* PunkApi_cTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PunkApi_cTests.m; sourceTree = "<group>"; };
+		2AD5EFF71F46024400ABA10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD5EFFC1F46024400ABA10C /* PunkApi-cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PunkApi-cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5F0001F46024400ABA10C /* PunkApi_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PunkApi_cUITests.m; sourceTree = "<group>"; };
+		2AD5F0021F46024400ABA10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD5F0111F46072500ABA10C /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.h; sourceTree = "<group>"; };
+		2AD5F0121F46072500ABA10C /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bear.m; sourceTree = "<group>"; };
+		2AD5F0141F46111300ABA10C /* BearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BearTableViewController.h; sourceTree = "<group>"; };
+		2AD5F0151F46111300ABA10C /* BearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BearTableViewController.m; sourceTree = "<group>"; };
+		2AF0AE211F4768BB00ED7D22 /* BearDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BearDetail.h; sourceTree = "<group>"; };
+		2AF0AE221F4768BB00ED7D22 /* BearDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BearDetail.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD5EFD21F46024300ABA10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5EFEE1F46024400ABA10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5EFF91F46024400ABA10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A64F2831F47802900453DCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A64F2861F47824F00453DCC /* BearDetail */,
+				2A64F2851F47822F00453DCC /* Bear */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2A64F2841F4781AD00453DCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A64F2881F4782AC00453DCC /* BearDetail */,
+				2A64F2871F47828200453DCC /* Bear */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2A64F2851F47822F00453DCC /* Bear */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5F0121F46072500ABA10C /* Bear.m */,
+				2AD5F0111F46072500ABA10C /* Bear.h */,
+			);
+			name = Bear;
+			sourceTree = "<group>";
+		};
+		2A64F2861F47824F00453DCC /* BearDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2AF0AE211F4768BB00ED7D22 /* BearDetail.h */,
+				2AF0AE221F4768BB00ED7D22 /* BearDetail.m */,
+			);
+			name = BearDetail;
+			sourceTree = "<group>";
+		};
+		2A64F2871F47828200453DCC /* Bear */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5F0141F46111300ABA10C /* BearTableViewController.h */,
+				2AD5F0151F46111300ABA10C /* BearTableViewController.m */,
+			);
+			name = Bear;
+			sourceTree = "<group>";
+		};
+		2A64F2881F4782AC00453DCC /* BearDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2A64F2801F477FE300453DCC /* BearDetailsViewController.h */,
+				2A64F2811F477FE300453DCC /* BearDetailsViewController.m */,
+			);
+			name = BearDetail;
+			sourceTree = "<group>";
+		};
+		2AD5EFCC1F46024300ABA10C = {
+			isa = PBXGroup;
+			children = (
+				2AD5EFD71F46024300ABA10C /* PunkApi-c */,
+				2AD5EFF41F46024400ABA10C /* PunkApi-cTests */,
+				2AD5EFFF1F46024400ABA10C /* PunkApi-cUITests */,
+				2AD5EFD61F46024300ABA10C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD5EFD61F46024300ABA10C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5EFD51F46024300ABA10C /* PunkApi-c.app */,
+				2AD5EFF11F46024400ABA10C /* PunkApi-cTests.xctest */,
+				2AD5EFFC1F46024400ABA10C /* PunkApi-cUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD5EFD71F46024300ABA10C /* PunkApi-c */ = {
+			isa = PBXGroup;
+			children = (
+				2A64F2841F4781AD00453DCC /* Controller */,
+				2A64F2831F47802900453DCC /* Model */,
+				2AD5EFDB1F46024300ABA10C /* AppDelegate.h */,
+				2AD5EFDC1F46024300ABA10C /* AppDelegate.m */,
+				2AD5EFE11F46024300ABA10C /* Main.storyboard */,
+				2AD5EFE71F46024300ABA10C /* Assets.xcassets */,
+				2AD5EFE91F46024300ABA10C /* LaunchScreen.storyboard */,
+				2AD5EFEC1F46024300ABA10C /* Info.plist */,
+				2AD5EFE41F46024300ABA10C /* PunkApi_c.xcdatamodeld */,
+				2AD5EFD81F46024300ABA10C /* Supporting Files */,
+			);
+			path = "PunkApi-c";
+			sourceTree = "<group>";
+		};
+		2AD5EFD81F46024300ABA10C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5EFD91F46024300ABA10C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AD5EFF41F46024400ABA10C /* PunkApi-cTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5EFF51F46024400ABA10C /* PunkApi_cTests.m */,
+				2AD5EFF71F46024400ABA10C /* Info.plist */,
+			);
+			path = "PunkApi-cTests";
+			sourceTree = "<group>";
+		};
+		2AD5EFFF1F46024400ABA10C /* PunkApi-cUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5F0001F46024400ABA10C /* PunkApi_cUITests.m */,
+				2AD5F0021F46024400ABA10C /* Info.plist */,
+			);
+			path = "PunkApi-cUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD5EFD41F46024300ABA10C /* PunkApi-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD5F0051F46024400ABA10C /* Build configuration list for PBXNativeTarget "PunkApi-c" */;
+			buildPhases = (
+				2AD5EFD11F46024300ABA10C /* Sources */,
+				2AD5EFD21F46024300ABA10C /* Frameworks */,
+				2AD5EFD31F46024300ABA10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PunkApi-c";
+			productName = "PunkApi-c";
+			productReference = 2AD5EFD51F46024300ABA10C /* PunkApi-c.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AD5EFF01F46024400ABA10C /* PunkApi-cTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD5F0081F46024400ABA10C /* Build configuration list for PBXNativeTarget "PunkApi-cTests" */;
+			buildPhases = (
+				2AD5EFED1F46024400ABA10C /* Sources */,
+				2AD5EFEE1F46024400ABA10C /* Frameworks */,
+				2AD5EFEF1F46024400ABA10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD5EFF31F46024400ABA10C /* PBXTargetDependency */,
+			);
+			name = "PunkApi-cTests";
+			productName = "PunkApi-cTests";
+			productReference = 2AD5EFF11F46024400ABA10C /* PunkApi-cTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AD5EFFB1F46024400ABA10C /* PunkApi-cUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD5F00B1F46024400ABA10C /* Build configuration list for PBXNativeTarget "PunkApi-cUITests" */;
+			buildPhases = (
+				2AD5EFF81F46024400ABA10C /* Sources */,
+				2AD5EFF91F46024400ABA10C /* Frameworks */,
+				2AD5EFFA1F46024400ABA10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD5EFFE1F46024400ABA10C /* PBXTargetDependency */,
+			);
+			name = "PunkApi-cUITests";
+			productName = "PunkApi-cUITests";
+			productReference = 2AD5EFFC1F46024400ABA10C /* PunkApi-cUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD5EFCD1F46024300ABA10C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Marco Antonio Mendonca";
+				TargetAttributes = {
+					2AD5EFD41F46024300ABA10C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					2AD5EFF01F46024400ABA10C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AD5EFD41F46024300ABA10C;
+					};
+					2AD5EFFB1F46024400ABA10C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AD5EFD41F46024300ABA10C;
+					};
+				};
+			};
+			buildConfigurationList = 2AD5EFD01F46024300ABA10C /* Build configuration list for PBXProject "PunkApi-c" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD5EFCC1F46024300ABA10C;
+			productRefGroup = 2AD5EFD61F46024300ABA10C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD5EFD41F46024300ABA10C /* PunkApi-c */,
+				2AD5EFF01F46024400ABA10C /* PunkApi-cTests */,
+				2AD5EFFB1F46024400ABA10C /* PunkApi-cUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD5EFD31F46024300ABA10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5EFEB1F46024300ABA10C /* LaunchScreen.storyboard in Resources */,
+				2AD5EFE81F46024300ABA10C /* Assets.xcassets in Resources */,
+				2AD5EFE31F46024300ABA10C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5EFEF1F46024400ABA10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5EFFA1F46024400ABA10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD5EFD11F46024300ABA10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A64F2821F477FE300453DCC /* BearDetailsViewController.m in Sources */,
+				2AD5EFE61F46024300ABA10C /* PunkApi_c.xcdatamodeld in Sources */,
+				2AF0AE231F4768BB00ED7D22 /* BearDetail.m in Sources */,
+				2AD5EFDD1F46024300ABA10C /* AppDelegate.m in Sources */,
+				2AD5F0161F46111300ABA10C /* BearTableViewController.m in Sources */,
+				2AD5EFDA1F46024300ABA10C /* main.m in Sources */,
+				2AD5F0131F46072500ABA10C /* Bear.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5EFED1F46024400ABA10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5EFF61F46024400ABA10C /* PunkApi_cTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5EFF81F46024400ABA10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5F0011F46024400ABA10C /* PunkApi_cUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD5EFF31F46024400ABA10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD5EFD41F46024300ABA10C /* PunkApi-c */;
+			targetProxy = 2AD5EFF21F46024400ABA10C /* PBXContainerItemProxy */;
+		};
+		2AD5EFFE1F46024400ABA10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD5EFD41F46024300ABA10C /* PunkApi-c */;
+			targetProxy = 2AD5EFFD1F46024400ABA10C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AD5EFE11F46024300ABA10C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD5EFE21F46024300ABA10C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AD5EFE91F46024300ABA10C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD5EFEA1F46024300ABA10C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AD5F0031F46024400ABA10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AD5F0041F46024400ABA10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AD5F0061F46024400ABA10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PunkApi-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomendoma.PunkApi-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AD5F0071F46024400ABA10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PunkApi-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomendoma.PunkApi-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AD5F0091F46024400ABA10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PunkApi-cTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomendoma.PunkApi-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PunkApi-c.app/PunkApi-c";
+			};
+			name = Debug;
+		};
+		2AD5F00A1F46024400ABA10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PunkApi-cTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomendoma.PunkApi-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PunkApi-c.app/PunkApi-c";
+			};
+			name = Release;
+		};
+		2AD5F00C1F46024400ABA10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PunkApi-cUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomendoma.PunkApi-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PunkApi-c";
+			};
+			name = Debug;
+		};
+		2AD5F00D1F46024400ABA10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PunkApi-cUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomendoma.PunkApi-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "PunkApi-c";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD5EFD01F46024300ABA10C /* Build configuration list for PBXProject "PunkApi-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5F0031F46024400ABA10C /* Debug */,
+				2AD5F0041F46024400ABA10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD5F0051F46024400ABA10C /* Build configuration list for PBXNativeTarget "PunkApi-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5F0061F46024400ABA10C /* Debug */,
+				2AD5F0071F46024400ABA10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD5F0081F46024400ABA10C /* Build configuration list for PBXNativeTarget "PunkApi-cTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5F0091F46024400ABA10C /* Debug */,
+				2AD5F00A1F46024400ABA10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD5F00B1F46024400ABA10C /* Build configuration list for PBXNativeTarget "PunkApi-cUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5F00C1F46024400ABA10C /* Debug */,
+				2AD5F00D1F46024400ABA10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AD5EFE41F46024300ABA10C /* PunkApi_c.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AD5EFE51F46024300ABA10C /* PunkApi_c.xcdatamodel */,
+			);
+			currentVersion = 2AD5EFE51F46024300ABA10C /* PunkApi_c.xcdatamodel */;
+			path = PunkApi_c.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AD5EFCD1F46024300ABA10C /* Project object */;
+}
